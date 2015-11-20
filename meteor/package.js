@@ -10,7 +10,7 @@ Package.onUse(function (api) {
 
   api.use( 'templating' );
 
-  api.export( 'EquationEditor' );
+  api.export( 'TinymceEquationEditor' );
 
   api.addAssets( [
     'build/fonts/Symbola.eot',
