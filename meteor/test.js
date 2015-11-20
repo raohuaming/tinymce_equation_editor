@@ -1,3 +1,3 @@
 Tinytest.add('mathquill', function (test) {
-  test.isNotUndefined(tinymce, 'tinymce should be defined');
+  test.isNotUndefined(TinymceEquationEditor, 'TinymceEquationEditor should be defined');
 });
