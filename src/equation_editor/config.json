@@ -2,19 +2,15 @@
   "buttonBar": [
     {
       "klass": "EquationEditor.Buttons.WriteButtonView",
-      "latex": "+"
-    },
-    {
-      "klass": "EquationEditor.Buttons.WriteButtonView",
-      "latex": "-"
-    },
-    {
-      "klass": "EquationEditor.Buttons.WriteButtonView",
       "latex": "\\times"
     },
     {
       "klass": "EquationEditor.Buttons.WriteButtonView",
       "latex": "\\div"
+    },
+    {
+      "klass": "EquationEditor.Buttons.WriteButtonView",
+      "latex": "\\pm"
     },
     {
       "klass": "EquationEditor.Buttons.CommandButtonView",
@@ -35,17 +31,57 @@
     },
     {
       "klass": "EquationEditor.Buttons.WriteButtonView",
-      "latex": "="
+      "latex": "\\neq"
     },
     {
       "klass": "EquationEditor.Buttons.WriteButtonView",
       "latex": "\\approx"
+    },
+    {
+      "klass": "EquationEditor.Buttons.WriteButtonView",
+      "latex": "\\le"
+    },
+    {
+      "klass": "EquationEditor.Buttons.WriteButtonView",
+      "latex": "\\ge"
+    },
+    {
+      "klass": "EquationEditor.Buttons.WriteButtonView",
+      "latex": "\\sim"
+    },
+    {
+      "klass": "EquationEditor.Buttons.WriteButtonView",
+      "latex": "\\degree"
+    },
+    {
+      "klass": "EquationEditor.Buttons.WriteButtonView",
+      "latex": "\\alpha"
+    },
+    {
+      "klass": "EquationEditor.Buttons.WriteButtonView",
+      "latex": "\\beta"
+    },
+    {
+      "klass": "EquationEditor.Buttons.WriteButtonView",
+      "latex": "\\gamma"
+    },
+    {
+      "klass": "EquationEditor.Buttons.WriteButtonView",
+      "latex": "\\delta"
+    },
+    {
+      "klass": "EquationEditor.Buttons.WriteButtonView",
+      "latex": "\\theta"
+    },
+    {
+      "klass": "EquationEditor.Buttons.WriteButtonView",
+      "latex": "\\pi"
     }
   ],
   "buttonGroups": {
     "basic": [
       {
-        "groupName": "Numbers",
+        "groupName": "数字",
         "buttonViews": [
           {
             "klass": "EquationEditor.Buttons.WriteButtonView",
@@ -114,7 +150,7 @@
         ]
       },
       {
-        "groupName": "Arithmetic and Units",
+        "groupName": "算术符号和常见单位",
         "buttonViews": [
           {
             "klass": "EquationEditor.Buttons.WriteButtonView",
@@ -166,7 +202,7 @@
     ],
     "intermediate": [
       {
-        "groupName": "Exponents, Roots, Logs",
+        "groupName": "指数, 求根, Logs",
         "buttonViews": [
           {
             "klass": "EquationEditor.Buttons.CommandButtonView",
@@ -212,7 +248,7 @@
         ]
       },
       {
-        "groupName": "Relations",
+        "groupName": "算术关系",
         "buttonViews": [
           {
             "klass": "EquationEditor.Buttons.WriteButtonView",
@@ -269,7 +305,7 @@
         ]
       },
       {
-        "groupName": "Geometry",
+        "groupName": "几何表示",
         "buttonViews": [
           {
             "klass": "EquationEditor.Buttons.WriteButtonView",
@@ -320,7 +356,7 @@
         ]
       },
       {
-        "groupName": "Groups",
+        "groupName": "分组",
         "buttonViews": [
           {
             "klass": "EquationEditor.Buttons.CommandButtonView",
@@ -358,7 +394,7 @@
     ],
     "advanced": [
       {
-        "groupName": "Trigonometry",
+        "groupName": "三角函数符号",
         "buttonViews": [
           {
             "klass": "EquationEditor.Buttons.WriteButtonView",
@@ -417,7 +453,7 @@
         ]
       },
       {
-        "groupName": "Statistics",
+        "groupName": "统计符号",
         "buttonViews": [
           {
             "klass": "EquationEditor.Buttons.WriteButtonView",
@@ -454,7 +490,7 @@
         ]
       },
       {
-        "groupName": "Greek",
+        "groupName": "希腊字母",
         "buttonViews": [
           {
             "klass": "EquationEditor.Buttons.WriteButtonView",
@@ -483,7 +519,7 @@
         ]
       },
       {
-        "groupName": "Calculus",
+        "groupName": "微积分符号",
         "buttonViews": [
           {
             "klass": "EquationEditor.Buttons.WriteButtonView",

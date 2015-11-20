@@ -22,6 +22,6 @@ class EquationEditor.ButtonGroupView extends EquationEditor.View
     <div class="button-group collapsible">
       <a href='#' class='collapsible-box-toggle ss-dropdown'></a> <header>#{@groupName}</header>
 
-      <div class="buttons box-content-collapsible hidden"></div>
+      <div class="buttons box-content-collapsible"></div>
     </div>
     """
