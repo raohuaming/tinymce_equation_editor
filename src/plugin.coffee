@@ -12,7 +12,7 @@ tinymce.create('tinymce.plugins.EquationEditorPlugin', {
           height: 400,
           inline: 1,
           popup_css: false,
-          title: 'Equation Editor',
+          title: '公式编辑器',
           buttons: [
             {
               text: '插入',
@@ -60,7 +60,7 @@ tinymce.create('tinymce.plugins.EquationEditorPlugin', {
         editor.execCommand('mceMathquill', latex)
 
     editor.addButton 'equationeditor', {
-      title: 'Equation editor',
+      title: '公式编辑器',
       cmd: 'mceMathquill',
       text: 'f(x)'
     }
