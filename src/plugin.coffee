@@ -15,7 +15,7 @@ tinymce.create('tinymce.plugins.EquationEditorPlugin', {
           title: 'Equation Editor',
           buttons: [
             {
-              text: 'insert',
+              text: '插入',
               subtype: 'primary',
               onclick: ->
                 win = editor.windowManager.getWindows()[0]
@@ -25,7 +25,7 @@ tinymce.create('tinymce.plugins.EquationEditorPlugin', {
                 win.close()
             },
             {
-              text: 'cancel',
+              text: '取消',
               onclick: ->
                 editing = null
                 editor.windowManager.getWindows()[0].close()

@@ -300,6 +300,10 @@
           },
           {
             "klass": "EquationEditor.Buttons.WriteButtonView",
+            "latex": "\\because"
+          },
+          {
+            "klass": "EquationEditor.Buttons.WriteButtonView",
             "latex": "\\therefore"
           }
         ]
