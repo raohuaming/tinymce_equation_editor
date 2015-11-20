@@ -10,6 +10,8 @@ Package.onUse(function (api) {
 
   api.use( 'templating' );
 
+  api.export( 'EquationEditor' );
+
   api.addAssets( [
     'build/fonts/Symbola.eot',
     'build/fonts/Symbola.otf',
@@ -27,7 +29,7 @@ Package.onUse(function (api) {
 
   api.addFiles( [
     'meteor/header.html',
-    'meteor/setup.js'
+    'meteor/export.js'
   ], 'client' );
 });
 
