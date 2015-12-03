@@ -1,6 +1,6 @@
 Package.describe({
   summary: "A TinyMCE plugin for editing equations using Mathquill",
-  version: "1.0.0",
+  version: "1.0.0_1",
   name: "huaming:tinymce-equation-editor",
   git: "http://github.com/huaming/tinymce_equation_editor.git"
 });
